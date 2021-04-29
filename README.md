@@ -11,7 +11,7 @@ interactions are to be ignored.
 The following are calculated for each planets.
 
 a) distance (in km) and speed (in km/s) at the aphelion,
-b) the length of the semimajor axis (in 106 km),
+b) the length of the semimajor axis (in 10^6 km),
 c) sidereal orbit period (in days),
 d) orbit eccentricity,
 e) mean orbital velocity (km/s),
