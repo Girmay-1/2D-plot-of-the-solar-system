@@ -55,8 +55,6 @@ print("\n\nsome of the data as read from the document is \n\n")
 partial_data_frame = df[["Planet", "Mass \n(1024 kg)", "Perihelion","Sidereal orbit period (days)"]].iloc[::2]
 print(partial_data_frame)
 
-
-
 def euler_Method(Ms, ri,vi,period):
     print("\n\n1.Method Used: Euler\n\n")
     print('{:<10s}{:>12s}{:^24s}{:^24s}{:^12s}{:>12s}'.format("step","dt(days)","V(km/s)","dr(km)","dist2sun(KM)","theta"))
@@ -185,10 +183,6 @@ for i in range(0,len(partial_data_frame)):
             \nsemi major axis = {}\nperiod = {}\neccentricty= {}\nmean_v=   {}".format(planet, \
                 min_speed[i],max_distance[i],semi_major_axis[i],T[i],e[i],mean_v[i]))
         
-
-
-        
-    
     planet= partial_data_frame.values.tolist()[i][0]
     distance_at_perihelion = np.array([float(partial_data_frame.values.tolist()[i][2].replace(',', ''))*1e9,0])
     speed_at_perihelion = np.array([0,float(partial_data_frame.values.tolist()[i][3].replace(',', ''))*1e3])
