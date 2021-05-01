@@ -6,7 +6,7 @@
 #   python version -----------   Python 3.8.5
 #   numpy   version-----------   numpy.__version__1.19.1
 #   To run the code, make sure all the libraries are imported and the word document
-#   in the same folder where the python code is
+#   in the same folder where the python code is.
 
 #   #######################################################
 
