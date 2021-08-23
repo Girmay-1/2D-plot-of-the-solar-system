@@ -1,8 +1,8 @@
 ## 2D-plot-of-the-solar-system
 
 This python program reads data from the table in the word document and uses three
-computational techniques, to detrmine certain parameters, out of which the most 
-efficent one is used to plot/simulate the oribits of the planets around the sun. 
+computational techniques, to determine certain parameters, out of which the most 
+efficent one is used to plot/simulate the orbits of the planets around the sun. 
 It is assumed that the orbits of all planets lie in the same plane,the major axes 
 of all planets coincide, and the minor axes of all planets coincide, and each planet 
 moves under the gravitational influence of the Sun only, i.e. interplanetary gravitational 
